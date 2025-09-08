@@ -1,0 +1,132 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+/* Main container */
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 90%;
+}
+
+/* Headings */
+.container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #444;
+}
+.container h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* To-do input */
+#todoInput {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #667eea;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+#todoInput:focus {
+  border-color: #764ba2;
+}
+
+/* Add button */
+#add-button {
+  padding: 10px 15px;
+  border: none;
+  background: #667eea;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#add-button:hover {
+  background: #764ba2;
+}
+
+/* Items list */
+#items {
+  margin-top: 20px;
+}
+
+/* Individual item */
+#items div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+#items div:hover {
+  background: #ece9ff;
+}
+
+/* Text inside items */
+#items p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Delete button */
+#items button {
+  border: none;
+  background: #ff4b5c;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+#items button:hover {
+  background: #e63946;
+}
+/* Check button */
+#items .check {
+  border: none;
+  background: #06d6a0;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 6px;
+  transition: 0.3s;
+}
+#items .check:hover {
+  background: #04b383;
+}
